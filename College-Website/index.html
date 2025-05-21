@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POLNES PELATIHAN</title>
+    <link rel="icon" href="Images/Logo_Polnes.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;200&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="home.html"><img src="Images/Logo_Polnes.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">BERANDA</a></li>
+            <li><a href="about.html">TENTANG</a></li>
+            <li><a href="courses.html">JADWAL</a></li>
+            <li><a href="blog.html">FORUM</a></li>
+            <li><a href="contact.html">KONTAK</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>POLNES</h1>
+        <p>
+          Di Polnes, kami percaya dalam memberdayakan calon insinyur untuk
+          mewujudkan potensi penuh mereka dan membentuk masa depan dengan ide-ide inovatif.
+        </p>
+        <a href="" class="hero-btn">Kunjungi Kami Untuk Info Lebih Lanjut</a>
+      </div>
+    </section>
+
+    <!-- -------course--------- -->
+    <section class="course">
+      <h1>Program yang Kami Tawarkan</h1>
+      <div class="course-intro">
+        <p>
+          Jelajahi program kami yang dirancang untuk memupuk
+          minat Anda pada teknologi dan membekali Anda dengan keterampilan untuk membentuk masa depan.
+        </p>
+      </div>
+      <div class="row">
+        <div class="course-col">
+          <h3>B.TECH</h3>
+          <p>
+            Program B.Tech dirancang untuk memberikan siswa dasar yang kuat dalam prinsip rekayasa dan keterampilan praktis.
+            Program ini menawarkan pemahaman komprehensif tentang berbagai disiplin teknik.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>M.TECH</h3>
+          <p>
+            Program M.Tech adalah gelar pascasarjana yang fokus pada konsep teknik lanjutan dan pengetahuan khusus.
+            Program ini memungkinkan siswa untuk mendalami bidang teknik pilihan mereka dan mengerjakan proyek penelitian.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>PENELITIAN</h3>
+          <p>
+            Kampus kami juga menawarkan kesempatan penelitian bagi mereka yang ingin mendorong batas pengetahuan teknik.
+            Program ini memberikan wadah bagi mahasiswa untuk berkolaborasi dalam proyek riset berdampak tinggi bersama dosen ahli.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------call to action----------- -->
+    <section class="cta">
+      <h1>
+        Daftar Untuk Kursus Online Kami <br />
+        dari mana saja di dunia!
+      </h1>
+      <a href="" class="hero-btn">HUBUNGI KAMI</a>
+    </section>
+
+
+    <!--Javascript untuk Toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
